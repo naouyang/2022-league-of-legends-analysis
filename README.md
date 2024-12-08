@@ -27,7 +27,14 @@ Below is a sample of my dataset:
 | Dplus KIA Challengers        |            337 |          -1160 |
 | Kwangdong Freecs Challengers |           -901 |           2516 |
 
+Below is the distribution of gold differences at 15 minutes. 
 
+<iframe
+  src="assets/golddiffat15.html"
+  width="800"
+  height="600"
+  frameborder="0"
+></iframe>
 
 ## Framing a Prediction Problem
 
