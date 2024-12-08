@@ -19,13 +19,13 @@ This analysis will be focusing on the "snowballing" effect inherent to League of
 I started by removing all the rows about individual players, as I did not feel that this data was important relative to my goal of predicting teamwide gold data. I also removed team two (red side) in this step, as gold difference is a zero sum statistic and I only need team one's data. I then removed all games that were not labelled as complete, as they did not contain enough data for me to run my model. Notably, they were missing the "golddiffat25" column, which is the main component of my model. I then also removed games that were less than 25 minutes long, for the same reason.
 Below is a sample of my dataset:
 
-| teamname                     |   golddiffat25 |
-|:-----------------------------|---------------:|
-| BRION Challengers            |             88 |
-| T1 Esports Academy           |          -7280 |
-| KT Rolster Challengers       |           4145 |
-| Dplus KIA Challengers        |          -1160 |
-| Kwangdong Freecs Challengers |           2516 |
+| teamname                     |   golddiffat10 |   golddiffat25 |
+|:-----------------------------|---------------:|---------------:|
+| BRION Challengers            |           1523 |             88 |
+| T1 Esports Academy           |          -1619 |          -7280 |
+| KT Rolster Challengers       |           -103 |           4145 |
+| Dplus KIA Challengers        |            337 |          -1160 |
+| Kwangdong Freecs Challengers |           -901 |           2516 |
 
 
 
