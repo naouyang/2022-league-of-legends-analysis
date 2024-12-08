@@ -27,11 +27,11 @@ Below is a sample of my dataset:
 | Dplus KIA Challengers        |            337 |          -1160 |
 | Kwangdong Freecs Challengers |           -901 |           2516 |
 
-Below is the distribution of gold differences at 15 minutes. 
+Below is a histogram showing the distribution of gold differences at 15 minutes. The distribution follows a normal distribution, and my question is trying to essentially trying to predict what this histogram looks like at the end of game rather than at fifteen minutes.
 
 <iframe
   src="assets/golddiffat15.html"
-  width="800"
+  width="1000"
   height="600"
   frameborder="0"
 ></iframe>
