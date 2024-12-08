@@ -36,6 +36,24 @@ Below is a histogram showing the distribution of gold differences at 15 minutes.
   frameborder="0"
 ></iframe>
 
+Below is the same histogram as above, just showing the gold difference at 25 minutes instead of 15 minutes. Notice that the distribution has spread out further than compared to at 15 minutes, but still follows a normal distribution.
+
+<iframe
+  src="assets/golddiffat25.html"
+  width="1000"
+  height="600"
+  frameborder="0"
+></iframe>
+
+Below is a scatterplot comparing the gold difference at 15 minutes vs. 25 minutes. There is a clear positive linear association, i.e. having a gold lead at 15 minutes implies that team will have a gold lead at 25 minutes, and vice versa, but there are many outliers. 
+
+<iframe
+  src="assets/golddiffat15vs25.html"
+  width="1000"
+  height="600"
+  frameborder="0"
+></iframe>
+
 ## Framing a Prediction Problem
 
 ## Baseline Model
